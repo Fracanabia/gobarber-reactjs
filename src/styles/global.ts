@@ -1,27 +1,26 @@
 import { createGlobalStyle } from 'styled-components'
 
-import githubBackground from '../assets/github-background.svg'
-
 export default createGlobalStyle`
-  *{
+  * {
     margin:0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
   }
 
-  body{
-    background:#f0f0f0 url(${githubBackground}) no-repeat 70% top;
+  body {
+    background:#312e38;
+    color: #ffffff;
     -webkit-font-smoothing: antialiased;
   }
 
-  body, input, button{
-    font:16px Roboto, sans-serif;
+  body, input, button {
+    font:16px 'Roboto Slab', serif;
   }
 
-  #root{
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 40px 20px;
+  h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 500;
   }
+
+
 `

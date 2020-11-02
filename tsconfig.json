@@ -21,6 +21,7 @@
     "jsx": "react"
   },
   "include": [
-    "src", "prettier.config.js"
+    "src",
+    "prettier.config.js"
   ]
 }
